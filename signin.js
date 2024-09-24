@@ -32,8 +32,8 @@ document.getElementById('bt_login').addEventListener('click', function(event) {
         data.forEach((user) => {
             if (user.ID === id && user.Password === pass) {
                 userFound = true;
-                sessionStorage.setItem('userName', user.Name); // Save user name in session
-                window.location.href = "index.html"; // Redirect to home page on successful login
+                sessionStorage.setItem('userName', user.Name); 
+                window.location.href = "index.html"; 
             }
         });
 
