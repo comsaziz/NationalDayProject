@@ -54,9 +54,10 @@ input {
     padding: 11px;
     border-radius: 10px;
     font-size: 1.1em;
-    color: #ffffff;
-
+    color: black; 
+    background-color: #ffffff; 
 }
+
 
 
 button {
@@ -91,12 +92,12 @@ hr {
 
 @media only screen and (max-width: 600px) {
 
-    body {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh;
-}
+      body {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+    }
 
 
     .content {

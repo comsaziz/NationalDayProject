@@ -47,7 +47,7 @@ document.getElementById('bt_submit').addEventListener('click', function(event) {
     .then((res) => res.json())
     .then((data) => {
         console.log(data);
-        window.location.assign("index.html");  
+        window.location.assign("home.html");  
     })
     .catch((error) => {
         console.error("Error:", error);

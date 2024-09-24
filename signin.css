@@ -52,12 +52,13 @@ label {
 }
 
 
+
 input {
     padding: 10px;
     border-radius: 10px;
     font-size: 1.1em;
-    color: #ffffff;
-   
+    color: black; 
+    background-color: #ffffff; 
 }
 
 

@@ -33,7 +33,7 @@ document.getElementById('bt_login').addEventListener('click', function(event) {
             if (user.ID === id && user.Password === pass) {
                 userFound = true;
                 sessionStorage.setItem('userName', user.Name); 
-                window.location.href = "index.html"; 
+                window.location.href = "home.html"; 
             }
         });
 
