@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://plus.unsplash.com/premium_photo-1712281671133-dc5585d0f12f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNhdWRpJTIwbmF0aW9uYWwlMjBkYXl8ZW58MHx8MHx8fDA%3D');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    opacity: 0.95;
+    color: #006C35; 
+}
+
+.navbar {
+    background-color: #d4f0ef;
+    color: #FFFFFF;
+}
+
+.navbar .btn {
+    background-color: #006C35;
+    border: none;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.quiz-container h1 {
+    color: #006C35;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+.quiz-container label {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #006C35;
+}
+
+.quiz-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    filter: blur(8px);
+    transition: filter 0.5s ease;
+}
+
+.quiz-container img.clear {
+    filter: blur(0);
+}
+
+.quiz-container input {
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    color: #006C35;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+     
+    }
+}
