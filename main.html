@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaudiDay</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <button type="button" class="btn btn-success btn">Signup</button>
+      </a>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <img src="https://nd.gea.gov.sa/images/logo-header.png" alt="">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <img src="images-removebg-preview.png" width="110" alt="">
+    </div>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="quiz-container">
+    <h1>Royal Family Game</h1>
+  
+
+    <div id="level-selection">
+      <label>Select Difficulty Level:</label>
+      <select id="difficulty" class="form-select">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      <button id="start-quiz" class="btn btn-success mt-3">Start</button>
+    </div>
+
+    <div id="quiz" style="display:none;">
+      <h3 id="question-text"></h3>
+      <img id="king-image" class="blurry" src="" alt="King or Prince Image" />
+      <br>
+      <input type="text" id="user-answer" class="form-control mt-3" placeholder="Type your answer" />
+      <button id="submit-answer" class="btn btn-success mt-3">Submit Answer</button>
+      <p id="feedback"></p>
+    </div>
+
+    <div id="result" style="display:none;" class="result"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
